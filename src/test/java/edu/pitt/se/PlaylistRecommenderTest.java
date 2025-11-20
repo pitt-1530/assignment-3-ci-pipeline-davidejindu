@@ -27,7 +27,7 @@ public class PlaylistRecommenderTest {
         ArrayList<Integer> bpms4 = new ArrayList<>(2);
         bpms3.add(100);
         bpms3.add(21);
-        assertEquals("LOW", PlaylistRecommender.classifyEnergy(bpms3));
+        assertEquals("LOW", PlaylistRecommender.classifyEnergy(bpms4));
 
     }
 }
